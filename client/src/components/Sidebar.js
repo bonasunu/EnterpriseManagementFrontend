@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sidebar = () => {
   const classes = {
-    wrapper: 'bg-yellow-200 col-span-1',
+    wrapper: 'bg-white col-span-1',
   }
 
   return (

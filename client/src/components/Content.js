@@ -2,8 +2,8 @@ import React from 'react'
 
 const Content = () => {
   const classes = {
-    wrapper: 'flex-grow overflow-y-auto bg-red-200',
-    data: 'bg-blue-200 h-screen',
+    wrapper: 'flex-grow overflow-y-auto bg-orange-100',
+    data: 'm-5 bg-white h-screen',
   }
 
   return (

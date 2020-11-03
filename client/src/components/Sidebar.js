@@ -7,7 +7,7 @@ const Sidebar = () => {
       'text-red-500 font-extrabold text-center text-2xl w-full mt-5 mb-5 p-3',
     linkWrapper: 'w-full text-left flex flex-col',
     link:
-      'mt-1 mb-1 px-6 py-3 text-lg font-semibold w-full h-12 hover:bg-orange-200 text-gray-700',
+      'mt-1 mb-1 px-6 py-3 text-lg font-semibold w-full h-12 hover:bg-orange-200 hover:text-gray-800 text-gray-600',
   }
 
   return (

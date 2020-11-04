@@ -15,15 +15,6 @@ const dataBar = {
         '#f95d6a',
         '#ffa600',
       ],
-      // borderColor: [
-      //   'rgba(255, 99, 132, 1)',
-      //   'rgba(54, 162, 235, 1)',
-      //   'rgba(255, 206, 86, 1)',
-      //   'rgba(75, 192, 192, 1)',
-      //   'rgba(153, 102, 255, 1)',
-      //   'rgba(255, 159, 64, 1)',
-      // ],
-      // borderWidth: 1,
     },
   ],
 }
@@ -42,15 +33,6 @@ const dataDoughnut = {
         '#f95d6a',
         '#ffa600',
       ],
-      // borderColor: [
-      //   'rgba(255, 99, 132, 1)',
-      //   'rgba(54, 162, 235, 1)',
-      //   'rgba(255, 206, 86, 1)',
-      //   'rgba(75, 192, 192, 1)',
-      //   'rgba(153, 102, 255, 1)',
-      //   'rgba(255, 159, 64, 1)',
-      // ],
-      // borderWidth: 1,
     },
   ],
 }
@@ -84,11 +66,13 @@ const options = {
 
 const Content = () => {
   const classes = {
-    wrapper: 'flex-grow overflow-y-auto overflow-x-hidden bg-orange-100 px-5',
-    pageTitle: 'mt-8 ml-8 mb-1 text-gray-600 font-bold text-xl',
-    dataWrapper: 'flex flex-wrap ml-5 mr-5 h-64',
+    wrapper: 'flex-grow overflow-y-auto overflow-x-hidden bg-orange-100',
+    pageTitle:
+      'mt-8 ml-8 mb-1 sm:ml-1 md:ml-2 lg:ml-5 xl:ml-8 lg:px-4 xl:px-2 px-2 text-gray-600 font-bold text-xl',
+    dataWrapper:
+      'flex flex-wrap ml-5 mr-5 sm:ml-1 md:ml-2 lg:ml-5 xl:ml-5 h-64 sm:h-auto md:h-auto lg:h-64 xl:h-64',
     data:
-      'flex-grow mr-3 ml-3 mt-5 mb-5 bg-white overflow-x-auto lg:w-1/4 sm:w-auto md:w-auto py-8 px-8 rounded-md',
+      'flex-grow mr-3 ml-3 mt-5 mb-5 sm:ml-2 md:ml-2 lg:ml-5 xl:ml-5 bg-white overflow-x-auto h-64 lg:w-1/4 sm:w-auto sm:h-auto md:w-auto py-8 px-8 sm:px-2 rounded-md',
   }
 
   return (

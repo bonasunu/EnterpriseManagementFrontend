@@ -5,8 +5,9 @@ import Content from './components/Content'
 
 function App() {
   const classes = {
-    wrapper: 'overflow-x-hidden h-screen grid grid-cols-6',
-    main: 'overflow-y-auto flex flex-col col-span-5',
+    wrapper:
+      'overflow-x-hidden h-screen grid grid-cols-1 lg:grid-cols-6 sm:grid-cols-1 md:grid-cols-1',
+    main: 'overflow-y-auto flex flex-col lg:col-span-5',
   }
 
   return (

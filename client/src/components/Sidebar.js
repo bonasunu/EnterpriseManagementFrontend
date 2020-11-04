@@ -2,7 +2,8 @@ import React from 'react'
 
 const Sidebar = () => {
   const classes = {
-    wrapper: 'bg-white col-span-1',
+    wrapper:
+      'bg-white hidden sm:hidden md:hidden lg:inline xl:inline xl:col-span-1 lg:col-span-1',
     title:
       'text-red-500 font-extrabold text-center text-2xl w-full mt-5 mb-5 p-3',
     linkWrapper: 'w-full text-left flex flex-col',

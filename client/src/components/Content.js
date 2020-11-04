@@ -85,10 +85,10 @@ const options = {
 const Content = () => {
   const classes = {
     wrapper: 'flex-grow overflow-y-auto overflow-x-hidden bg-orange-100 px-5',
-    pageTitle: 'm-8 text-gray-600 font-bold text-xl',
-    dataWrapper: 'flex flex-wrap ',
+    pageTitle: 'mt-8 ml-8 mb-1 text-gray-600 font-bold text-xl',
+    dataWrapper: 'flex flex-wrap ml-5 mr-5 h-64',
     data:
-      'flex-grow m-8 bg-white overflow-x-auto lg:w-1/4 sm:w-auto md:w-auto py-5 px-5 rounded-md',
+      'flex-grow mr-3 ml-3 mt-5 mb-5 bg-white overflow-x-auto lg:w-1/4 sm:w-auto md:w-auto py-8 px-8 rounded-md',
   }
 
   return (
@@ -99,7 +99,10 @@ const Content = () => {
           <Bar data={dataBar} options={options} />
         </div>
         <div className={classes.data}>
-          <Doughnut data={dataDoughnut} />
+          <Doughnut
+            data={dataDoughnut}
+            options={{ maintainAspectRatio: false }}
+          />
         </div>
         <div className={classes.data}>
           <Line data={dataLine} options={options} />

@@ -7,7 +7,7 @@ const Navbar = ({ burgerBtn, burgerMenu }) => {
       'sticky top-0 flex flex-wrap sm:justify-start md:justify-start lg:justify-end xl:justify-end bg-red-600 border-b-4 border-red-700 h-12',
     btn: 'h-12 w-8 fill-current text-white outline-none lg:hidden ml-1 mr-1',
     accountLink:
-      'hidden sm:hidden md:hidden lg:block xl:block text-gray-200 ml-1 mr-1 px-1 py-3',
+      'hidden sm:hidden md:hidden lg:block xl:block text-gray-200 ml-1 mr-1 px-1 py-3 hover:bg-red-500',
   }
 
   return (

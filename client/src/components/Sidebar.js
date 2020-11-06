@@ -10,7 +10,7 @@ const Sidebar = () => {
       'mt-1 mb-1 px-6 py-3 text-lg font-semibold w-full h-12 hover:bg-orange-200 hover:text-gray-800 text-gray-600',
     accountLinkWrapper: 'lg:hidden xl:hidden',
     accountLink:
-      'mt-1 mb-1 px-6 py-3 text-lg font-semibold w-full h-12 hover:bg-orange-200 hover:text-gray-800 text-gray-600',
+      'flex mt-1 mb-1 px-6 py-3 text-lg font-semibold w-full h-12 hover:bg-orange-200 hover:text-gray-800 text-gray-600',
   }
 
   return (

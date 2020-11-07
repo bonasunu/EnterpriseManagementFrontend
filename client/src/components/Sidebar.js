@@ -4,7 +4,7 @@ import AccountMenu from './AccountMenu'
 const Sidebar = () => {
   const classes = {
     title:
-      'text-red-500 font-extrabold text-center text-xl hidden sm:hidden md:hidden lg:block xl:block w-full mt-5 mb-5 px-5',
+      'text-red-500 font-extrabold text-center text-xl sm:block md:block sm:mb-1 md:mb-1 lg:block xl:block w-full mt-5 mb-5 px-5',
     linkWrapper: 'w-full text-left flex flex-col',
     link:
       'mt-1 mb-1 px-6 py-3 text-lg font-semibold w-full h-12 hover:bg-orange-200 hover:text-gray-800 text-gray-600',

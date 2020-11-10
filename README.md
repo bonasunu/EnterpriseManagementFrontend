@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# EnterpriseManagementFrontend
+
+## Demo
+
+Link for demo
+https://binar-ch6-bona.herokuapp.com/
+
+## Description
+
+This is Enterprise Dashboard with React and TailwindCSS
+>>>>>>> 2141a4b6c1e4e863b41ceb0902c1465735bf651a
